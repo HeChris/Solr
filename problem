@@ -1,0 +1,2 @@
+** 今天在使用solr net是遇到一个并发问题，一个commit还未提交，第二个commit需要读取到第一个的数据，使用solr net封装的查询方法无法做到
+使用solr 提供的restful api(GET) 接口可以读取到第一个commit的快照
